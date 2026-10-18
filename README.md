@@ -9,6 +9,7 @@ Open `index.html` through any static host. GitHub Pages: upload all files to a r
 - Audio is mixed in via Web Audio, respecting start/end trim and volume. Use only music you own or may use.
 ## Offline / online
 Everything is local after the first load (no service worker yet, so the first load needs internet). No external assets.
+Preview stays pinned at the top while you scroll settings. A generic music player card effect is included (no third-party logos).
 ## Limits (not implemented)
 IndexedDB storage (projects use localStorage; settings only, no media), undo/redo, waveform display, Web Workers, MP4 encoder library, automated tests. Parallax and Liquid Gradient are simple approximations. Nothing here has been tested in a real browser yet; see the checklist below.
 ## Manual checklist
